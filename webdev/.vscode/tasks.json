@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Adwini frontend",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"&&",
+				"npm",
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
